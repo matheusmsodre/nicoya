@@ -1,0 +1,14 @@
+<svg data-name="Group 1065" xmlns="http://www.w3.org/2000/svg" width="88.604" height="102.991" viewBox="0 0 88.604 102.991">
+    <defs>
+        <clipPath id="7pi78cftqa">
+            <path data-name="Rectangle 198" style="stroke:transparent;fill:none;stroke-width:4px" d="M0 0h88.604v102.991H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 1064" style="clip-path:url(#7pi78cftqa)">
+        <path data-name="Path 1122" d="M55.357 50.141s-12.567-20.815-41.63-5.89" transform="translate(7.444 21.075)" style="stroke-linecap:round;stroke:#394553;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+        <path data-name="Path 1123" d="M32.1 43.419s-7.712-16.965-30.85-9.272" transform="translate(.678 17.432)" style="stroke-linecap:round;stroke:#394553;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+        <path data-name="Path 1124" d="M13.609 56.038a55.911 55.911 0 0 0-9.558 14.635" transform="translate(2.197 30.39)" style="stroke-linecap:round;stroke:#394553;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+        <path data-name="Path 1125" d="M8.314 89.959c31.81 20.726 73.541-3.712 73.541-3.712C85 40.69 63.4 8.88 63.4 8.88l-.3-.38s-4.672-7.491-24.7-7.244c0 0-9.946 5.133-8.116 16.9l2.8 3.828 14.857-1.726s2.335-6.489 3.574-8.3" transform="translate(4.509 .678)" style="stroke-linecap:round;stroke:#394553;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+        <path data-name="Path 1126" d="M35.314 10.83s7.326 5.676 8.3 12.639l.091.452c.676 3.762 1.437 9.45.683 11.967-.9 2.991-4.5 8.029-6 14.942" transform="translate(19.151 5.873)" style="stroke:#394553;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+    </g>
+</svg>

@@ -1,0 +1,153 @@
+/* NEW FOOTER */
+
+footer {
+    background-color: #FFFFFF;
+    padding-top: 33px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding-top: 24px;
+    }
+}
+
+.f-main__heading {
+    color: #2E6514;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .f-main__heading {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .f-main__heading {
+        margin-bottom: 15px;
+    }
+}
+
+.f-main__logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .f-main__logo-box {
+        gap: 22px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.f-main__main-info-box {
+    margin-top: 15px;
+    margin-bottom: 48px;
+}
+
+@media (max-width: 991px) {
+    .f-main__main-info-bo {
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 991px) {
+    .f-main__main-info-bo {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+    .f-main__info-item--right {
+        margin-top: 10px;
+    }
+}
+
+.f-main__info-item {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.5px;
+    color: #7B7B7B;
+}
+
+.f-main__info-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.f-main__info-item ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .f-main__info-item ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.footer-bottom-section {
+    background-color: #2E6514;
+    padding: 40px 0;
+}
+
+.footer-bottom-section__text-area p {
+    font-size: 16px;
+    color: #7CC15C;
+}
+
+.footer-bottom-section__top-links,
+.footer-bottom-section__bottom-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-bottom-section__top-links a,
+.footer-bottom-section__bottom-links a {
+    text-decoration: none;
+    color: #7CC15C;
+}
+
+.footer-bottom-section__top-links {
+    margin-top: 18px;
+    gap: 60px;
+    text-transform: uppercase;
+}
+
+.footer-bottom-section__bottom-links {
+    margin-top: 18px;
+    gap: 20px;
+}
+
+.footer-bottom-section__bottom-content {
+    color: #7CC15C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+@media (max-width: 991px) {
+    .footer-bottom-section__bottom-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.footer-bottom-section__text-area p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bottom-section__text-area p:not(:last-child) {
+    margin-bottom: 20px;
+}

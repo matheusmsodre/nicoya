@@ -1,0 +1,127 @@
+.questions {
+    background: linear-gradient(360deg, #596D0D 0%, #2A3E00 100%);
+    padding: 30px 0 145px 0;
+}
+
+@media (max-width: 991px) {
+    .questions {
+        padding: 30px 0;
+    }
+}
+
+.f-under-heading {
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: 30px 0;
+}
+
+.questions__heading {
+    line-height: 42px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+    /* font-size: 50px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.18;
+        letter-spacing: normal;
+        text-align: center; */
+}
+
+@media (max-width: 768px) {
+    .questions__heading {
+        font-size: 30px;
+        margin-bottom: 27px;
+    }
+}
+
+@media (max-width: 570px) {
+    .questions__heading {
+        font-size: 28px;
+        line-height: 42px;
+    }
+}
+
+.questions__box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.questions__box:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.questions__item {
+    transition: all 0.3s;
+}
+
+.questions__item-heading {
+    /* border: solid 2px #c1dbff; */
+    color: #000000;
+    background-color: #fff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .questions__item-heading {
+        font-size: 19px;
+        line-height: 22px;
+        gap: 17px;
+    }
+}
+
+.questions__content {
+    padding: 0 20px;
+    max-height: 0;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* // gap: 40px; */
+    gap: 25px;
+    background: none;
+}
+
+.questions__content p {
+    margin: 0;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .questions__content {
+        font-size: 19px;
+        line-height: 24px;
+        /* // gap: 25px; */
+    }
+}
+
+@media (max-width: 570px) {
+    .questions__content {
+        font-size: 18px;
+    }
+}

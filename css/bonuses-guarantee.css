@@ -1,0 +1,374 @@
+.gua-container {
+    max-width: 990px !important;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.guarantee {
+    padding: 30px 0 43px 0;
+    background: #FFFFFF !important;
+}
+
+@media (max-width: 991px) {
+    .guarantee {
+        padding: 20px 0 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .guarantee {
+        padding: 30px 15px 20px 15px;
+    }
+}
+
+.guarantee__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.guarantee__heading {
+    color: #2E6514;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .guarantee__heading {
+        font-size: 46px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .guarantee__heading {
+        font-size: 31px;
+        line-height: 32px;
+    }
+}
+
+.guarantee__main-photo {
+    max-width: 194px;
+}
+
+@media (max-width: 991px) {
+    .guarantee__main-photo {
+        display: none;
+    }
+}
+
+.guarantee__content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.guarantee__text-area {
+    margin-top: 20px;
+    margin-bottom: 40px !important;
+    max-width: 715px;
+    width: 100%;
+    color: #000000 !important;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.9px;
+}
+
+.guarantee__text-area span {
+    font-weight: 700;
+}
+
+@media (max-width: 991px) {
+    .guarantee__text-area {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 16px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .guarantee__text-area {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+.guarantee__prizes-box {}
+
+@media (max-width: 768px) {
+    .guarantee__prizes-box img {
+        max-width: 460px;
+    }
+}
+
+@media (max-width: 420px) {
+    .guarantee__prizes-box img {
+        max-width: 360px;
+    }
+}
+
+/* ///////////// */
+
+.bonuses {
+    /* background-color: #1f65c4; */
+    background: #2E6514;
+    padding-top: 33.5px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .bonuses {
+        padding: 20px 0;
+    }
+}
+
+.bonuses__box {
+    color: #FFFFFF;
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .bonuses__box {
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bonuses__box {
+        gap: 16px;
+    }
+}
+
+.bonuses__heading {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bonuses__heading span {
+    color: #FFFC60;
+}
+
+@media (min-width: 992px) {
+    .bonuses__heading {
+        /* min-width: max-content; */
+    }
+}
+
+@media (max-width: 991px) {
+    .bonuses__heading {
+        font-size: 48px;
+        line-height: 55px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bonuses__heading {
+        font-size: 28px;
+        line-height: 29px;
+        margin-bottom: 16px;
+    }
+}
+
+.bonuses__content-box {
+    padding: 17px 23px 25px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 464px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .bonuses__content-box {
+        max-width: 696px;
+        padding: 17px 37px 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .bonuses__content-box {
+        padding: 17px 15px 25px;
+    }
+}
+
+.bonuses__photo-desktop {}
+
+@media (max-width: 992px) {
+    .bonuses__photo-desktop {
+        display: none;
+    }
+}
+
+.bonuses__photo-mobile {}
+
+@media (min-width: 992px) {
+    .bonuses__photo-mobile {
+        display: none;
+    }
+}
+
+.bonuses__photo-box {
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width: 575px) {
+    .bonuses__photo-box {
+        max-width: 360px;
+        width: 100%;
+    }
+}
+
+.bonuses__photo {
+    border-radius: 20px;
+    max-width: 422px;
+}
+
+@media (max-width: 991px) {
+    .bonuses__photo {
+        max-width: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .bonuses__photo {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 575px) {
+    .bonuses__photo {
+        max-width: 292px;
+    }
+}
+
+.bonuses__price {
+    background-color: #2E6514;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.5px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.bonuses__price span {
+    color: #FFFC60;
+}
+
+@media (max-width: 991px) {
+    .bonuses__price {
+        font-size: 25px;
+        line-height: 35.5px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bonuses__price {
+        font-size: 25px;
+        line-height: 35.5px;
+    }
+}
+
+.bonuses__main-price {
+    color: #ffffff;
+    text-decoration-thickness: 2.2px;
+}
+
+.bonuses__main-price span {
+    color: #ffffff;
+}
+
+.bonuses__text-area {
+    /* margin-top: 20px; */
+    margin-top: 9px;
+    color: #003A8A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.4px;
+}
+
+.bonuses__text-area span {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .bonuses__text-area {
+        line-height: 26px;
+        font-size: 18px;
+    }
+}
+
+.bonuses__photo-heading {
+    color: #000000;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35.5px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 0 20px 10px 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+@media (min-width: 575px) {
+    .bonuses__photo-heading {
+        min-width: max-content;
+    }
+}
+
+@media (max-width: 991px) {
+    .bonuses__photo-heading {
+        top: 0;
+        bottom: auto;
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bonuses__photo-heading {
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+
+.fheading {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    color: #979797;
+    margin-bottom: 5px;
+}
+
+.digital-download {
+    margin-top: 11px;
+    color: #003A8A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}

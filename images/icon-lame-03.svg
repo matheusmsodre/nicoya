@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104.809" height="106.019" viewBox="0 0 104.809 106.019">
+    <defs>
+        <clipPath id="8o6lv4zi1a">
+            <path data-name="Rectangle 196" style="stroke:transparent;fill:none;stroke-width:4px" d="M0 0h104.809v106.019H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 1061">
+        <g data-name="Group 1060" style="clip-path:url(#8o6lv4zi1a)">
+            <path data-name="Path 1110" d="M28.824 4.212a51.131 51.131 0 1 0 68.95 68.952" transform="translate(.923 3.109)" style="stroke:#394553;stroke-linecap:round;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+            <path data-name="Path 1111" d="M19.554 4.212A51.14 51.14 0 0 0 88.5 73.164" transform="translate(10.192 3.109)" style="stroke:#394553;stroke-linecap:round;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+            <path data-name="Path 1112" d="M29.526 1.25h22.926l-22.82 27.381h22.711" transform="translate(21.791 .923)" style="stroke:#394553;stroke-linecap:round;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+            <path data-name="Path 1113" d="M49.631 17.074h16.377l-16.3 19.56H65.93" transform="translate(36.628 12.601)" style="stroke:#394553;stroke-linecap:round;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+            <path data-name="Path 1114" d="M35.741 26.046h11.507L35.794 39.788h11.4" transform="translate(26.377 19.223)" style="stroke:#394553;stroke-linecap:round;stroke-linejoin:round;fill:none;stroke-width:4px"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,730 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nicoya PuraTea</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="dist/css/main.min.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="new-favicons/apple-touch-icon.png"
+    /><!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <meta charset="UTF-8" />
+      <title>Nicoya PuraTea</title>
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+      <meta name="robots" content="noindex" />
+      <meta name="googlebot" content="noindex" />
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+      <link rel="stylesheet" href="dist/css/main.min.css" />
+    
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="new-favicons/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="new-favicons/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="new-favicons/favicon-16x16.png" />
+      <link rel="manifest" href="new-favicons/site.webmanifest" />
+      <link rel="mask-icon" href="new-favicons/favicon-16x16.png" />
+      <!-- Favicon End-->
+    
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@400;700;800&display=swap"
+        rel="stylesheet" />
+    
+      <link rel="stylesheet" href="css/jquery.countdown.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/animate.css" />
+      <link rel="stylesheet" href="css/lame.css" />
+      <link rel="stylesheet" href="css/faq.css" />
+      <link rel="stylesheet" href="css/offer.css" />
+      <link rel="stylesheet" href="css/bonuses-guarantee.css" />
+      <link rel="stylesheet" href="css/new-footer.css" />
+    
+      <!-- mobile detect -->
+      <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
+    
+      <!-- ClickBank Trust Badge -->
+      <script src="//cbtb.clickbank.net/?vendor=nicoyapuratea"></script>
+    
+      <!-- clcick-bank -->
+      <script>
+        window.clickbank = {
+          vendor: "nicoyapuratea",
+        };
+      </script>
+      <script src="https://scripts.clickbank.net/hop.min.js" defer></script>
+    
+      <style>
+        .offer__timer-heading {
+          text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    
+        /* div#cbBadge {
+            background-color: #FFFFFF !important;
+          } */
+    
+        .cbtb .cbtb-center-block {
+          content: url("images/main-pages-assets/logo-header-two-tone-en.png");
+        }
+    
+        .offer__save-big {
+          top: -20px;
+          left: -7px;
+        }
+    
+        @media (max-width: 768px) {
+          .offer__save-big {
+            right: -5px;
+            height: 83px;
+            width: 83px;
+            left: -29px;
+            top: -8px;
+          }
+        }
+    
+        @media (max-width: 575px) {
+          .offer__save-big {
+            height: 80px;
+            width: 80px;
+            /* top: 13px;
+          left: -20px; */
+            top: -10px;
+            left: -10px;
+          }
+        }
+    
+        .offer__save-small {
+          top: -13px;
+          left: -23px;
+        }
+    
+        @media (max-width: 991px) {
+          .offer__save-small {
+            top: -10px;
+            left: -30px;
+          }
+        }
+    
+        @media (max-width: 768px) {
+          .offer__save-small {
+            right: -8px;
+            height: 84px;
+            width: 84px;
+            top: 0;
+            left: -29px;
+          }
+        }
+    
+        @media (max-width: 575px) {
+          .offer__save-small {
+            top: -7px;
+            left: -19px;
+            height: 80px;
+            width: 80px;
+          }
+        }
+    
+        .mine-cookie-popup-overlay {
+          all: unset;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.7);
+          z-index: 9998;
+          display: none;
+        }
+    
+        .mine-cookie-popup {
+          all: unset;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 25%;
+          /* Usa porcentagem para ajustar em telas menores */
+          max-width: 50vw;
+          /* Limita o tamanho em telas maiores */
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          z-index: 9999;
+          text-align: center;
+          font-family: Arial, sans-serif;
+        }
+    
+        .mine-cookie-buttons {
+          all: unset;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          margin-top: 10px;
+          flex-wrap: wrap;
+          /* Permite quebra de linha em telas menores */
+        }
+    
+        .mine-cookie-btn,
+        .mine-cookie-close-btn {
+          all: unset;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 14px;
+          transition: background-color 0.3s;
+          text-align: center;
+          min-width: 120px;
+          text-shadow: 0px 1px 4px rgba(116, 48, 0, 0.45);
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          letter-spacing: normal;
+          /* Tamanho mínimo fixo */
+        }
+    
+        .mine-cookie-btn {
+          background-color: #4CAF50;
+          color: white;
+        }
+    
+        .mine-cookie-btn:hover {
+          background-color: #45a049;
+        }
+    
+        .mine-cookie-close-btn {
+          background-image: linear-gradient(to bottom, #facc2d, #feb10a);
+          color: #333;
+        }
+    
+        .mine-cookie-close-btn:hover {
+          background-color: #E0A800;
+        }
+    
+        @media (max-width: 480px) {
+          .mine-cookie-popup {
+            padding: 15px;
+            width: 100%;
+            /* Usa 100% da tela em telas menores */
+          }
+    
+          .mine-cookie-btn,
+          .mine-cookie-close-btn {
+            width: 100%;
+            /* Ocupa a largura total em telas pequenas */
+          }
+        }
+    
+        .mine-cookie-close-x {
+          all: unset;
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          width: 24px;
+          height: 24px;
+          background-color: #f44336;
+          color: white;
+          border: none;
+          border-radius: 50%;
+          font-size: 18px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: background-color 0.3s;
+        }
+    
+        .mine-cookie-close-x:hover {
+          background-color: #d32f2f;
+        }
+    
+        html,
+        body {
+          overflow: hidden;
+          /* Impede o scroll vertical e horizontal */
+          height: 100%;
+          /* Garante que o conteúdo fique fixo na tela */
+        }
+      </style>
+    
+    </head>
+    
+    <body class="lame">
+      <div class="mine-cookie-popup-overlay" id="cookieOverlay" onclick="redirectUser()"></div>
+    
+      <div class="mine-cookie-popup" id="cookiePopup">
+        <!-- Botão de fechar -->
+        <button class="mine-cookie-close-x" onclick="redirectUser()">×</button>
+    
+        <h2>🍪 This site uses cookies</h2>
+        <p>We use cookies to enhance your browsing experience. By continuing, you agree to our use of cookies.</p>
+        <div class="mine-cookie-buttons">
+          <button class="mine-cookie-btn" onclick="redirectUser()">Accept and Continue</button>
+          <button class="mine-cookie-close-btn" onclick="redirectUser()">Reject</button>
+        </div>
+      </div>
+    
+      <script>
+    
+        // Exibe o pop-up assim que a página carregar
+        window.onload = function () {
+          document.getElementById('cookiePopup').style.display = 'block';
+          document.getElementById('cookieOverlay').style.display = 'block';
+        };
+    
+        // Redireciona o usuário ao aceitar/rejeitar/clicar fora/fechar
+        function redirectUser() {
+          window.location.replace("https://f4759mt8uqq9o6bhv6zwpf4fm6.hop.clickbank.net");
+        }
+      </script>
+    
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-96H9BS3Q6P"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+    
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+    
+        gtag("config", "G-96H9BS3Q6P");
+      </script>
+      <section class="lame-page" style="overflow-x: hidden">
+        <!-- HEADER -->
+        <header class="header">
+          <div class="wrapper">
+            <div class="header__row">
+              <div class="header__logo">
+                <a href="/" title="herbalanced">
+                  <img src="images/main-pages-assets/logo.svg" alt="herbalanced" />
+                </a>
+              </div>
+    
+              <div class="header__nav">
+                <ul>
+                  <li>
+                    <a class="anchors" href="#about" title="About Nicoya">About Nicoya PuraTea</a>
+                  </li>
+                  <li>
+                    <a class="anchors" href="#benefits" title="Benefits">Benefits</a>
+                  </li>
+                  <li>
+                    <a class="anchors" href="#ingredients" title="Ingredients">Ingredients</a>
+                  </li>
+                  <li>
+                    <a class="anchors" href="#faq" title="FAQs">FAQs</a>
+                  </li>
+                  <li>
+                    <a class="anchors" href="#order-now" title="Order Now">Order Now</a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="header__burger">
+                <div class="burger-menu">
+                  <div class="burger-click-region">
+                    <span class="burger-menu-piece"></span>
+                    <span class="burger-menu-piece"></span>
+                    <span class="burger-menu-piece"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- HEADER END -->
+    
+        <div class="wrapper wow fadeInUp" data-wow-delay="0.3s">
+          <div class="one-product-section">
+            <div class="one-product-section__row">
+              <div class="one-product-section__text">
+                <h2>Powerful New Formula To Support Healthy Weight Loss</h2>
+                <p>
+                  Nicoya PuraTea is an all natural formula that can assist in
+                  eliminating excess body fat while maintaining long-term results.
+                </p>
+                <a href="#order-now" class="btn-lame anchors new-btn-style">ORDER NOW >></a>
+              </div>
+              <div class="one-product-section__img">
+                <img src="images/main-pages-assets/3bottles.png" srcset="
+                      images/main-pages-assets/3bottles@2x.png 2x,
+                      images/main-pages-assets/3bottles@3x.png 3x
+                    " class="" />
+                <p>
+                  <img src="images/main-pages-assets/icon-info-one.svg" alt="" />
+                  Manufactured in the USA from the finest of foreign and domestic
+                  ingredients
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="product-blue">
+          <div class="wrapper">
+            <div class="product-blue__row">
+              <div class="product-blue__img">
+                <img src="images/main-pages-assets/1bottle.png" srcset="
+                      images/main-pages-assets/1bottle@2x.png 2x,
+                      images/main-pages-assets/1bottle@3x.png 3x
+                    " class="" />
+              </div>
+              <div class="product-blue__text">
+                <p>
+                  Nicoya PuraTea is made up of a proprietary blend of 8 natural
+                  ingredients proven to target the possible cause of unexplained
+                  weight gain from blue light exposure and lack of N-REM sleep.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    
+        
+    </body>
+    <script src="js/engineer.js"></script>
+    <script src="js/lame.js"></script>
+    <script src="js/trynowYoutube.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+      $(function ($) {
+        wow = new WOW({
+          boxClass: "wow", // default
+          animateClass: "animated", // default
+          offset: 0, // default
+          mobile: true, // default
+          live: true, // default
+        });
+        wow.init();
+      });
+    </script>
+    
+    <!-- title -->
+    <script>
+      var pierwotnyTytul = document.title;
+      var nowyTytul = "⚠️ You've got message!";
+    
+      function migotajCoSekunde() {
+        setInterval(function () {
+          if (document.hidden) {
+            document.title =
+              document.title === nowyTytul ? pierwotnyTytul : nowyTytul;
+          }
+        }, 1000);
+      }
+    
+      document.addEventListener("visibilitychange", function () {
+        if (document.hidden) {
+          document.title = nowyTytul;
+        } else {
+          document.title = pierwotnyTytul;
+        }
+      });
+      migotajCoSekunde();
+    </script>
+    <!-- end title -->
+    
+    </html>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="new-favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="new-favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="new-favicons/site.webmanifest" />
+    <link rel="mask-icon" href="new-favicons/favicon-16x16.png" />
+    <!-- Favicon End-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/jquery.countdown.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/lame.css" />
+    <link rel="stylesheet" href="css/faq.css" />
+    <link rel="stylesheet" href="css/offer.css" />
+    <link rel="stylesheet" href="css/bonuses-guarantee.css" />
+    <link rel="stylesheet" href="css/new-footer.css" />
+
+    <!-- mobile detect -->
+    <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
+
+    <!-- ClickBank Trust Badge -->
+    <script src="//cbtb.clickbank.net/?vendor=nicoyapuratea"></script>
+
+    <!-- clcick-bank -->
+    <script>
+      window.clickbank = {
+        vendor: "nicoyapuratea",
+      };
+    </script>
+    <script src="https://scripts.clickbank.net/hop.min.js" defer></script>
+
+    <style>
+      .offer__timer-heading {
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      /* div#cbBadge {
+        background-color: #FFFFFF !important;
+      } */
+      .cbtb .cbtb-center-block {
+        content: url("images/main-pages-assets/logo-header-two-tone-en.png");
+      }
+
+      .offer__save-big {
+        top: -20px;
+        left: -7px;
+      }
+      @media (max-width: 768px) {
+        .offer__save-big {
+          right: -5px;
+          height: 83px;
+          width: 83px;
+          left: -29px;
+          top: -8px;
+        }
+      }
+      @media (max-width: 575px) {
+        .offer__save-big {
+          height: 80px;
+          width: 80px;
+          /* top: 13px;
+      left: -20px; */
+          top: -10px;
+          left: -10px;
+        }
+      }
+
+      .offer__save-small {
+        top: -13px;
+        left: -23px;
+      }
+      @media (max-width: 991px) {
+        .offer__save-small {
+          top: -10px;
+          left: -30px;
+        }
+      }
+      @media (max-width: 768px) {
+        .offer__save-small {
+          right: -8px;
+          height: 84px;
+          width: 84px;
+          top: 0;
+          left: -29px;
+        }
+      }
+      @media (max-width: 575px) {
+        .offer__save-small {
+          top: -7px;
+          left: -19px;
+          height: 80px;
+          width: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body class="lame">
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-96H9BS3Q6P"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-96H9BS3Q6P");
+    </script>
+    <section class="lame-page" style="overflow-x: hidden">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="wrapper">
+          <div class="header__row">
+            <div class="header__logo">
+              <a href="/" title="herbalanced">
+                <img
+                  src="images/main-pages-assets/logo.svg"
+                  alt="herbalanced"
+                />
+              </a>
+            </div>
+
+            <div class="header__nav">
+              <ul>
+                <li>
+                  <a class="anchors" href="#about" title="About Nicoya"
+                    >About Nicoya PuraTea</a
+                  >
+                </li>
+                <li>
+                  <a class="anchors" href="#benefits" title="Benefits"
+                    >Benefits</a
+                  >
+                </li>
+                <li>
+                  <a class="anchors" href="#ingredients" title="Ingredients"
+                    >Ingredients</a
+                  >
+                </li>
+                <li>
+                  <a class="anchors" href="#faq" title="FAQs">FAQs</a>
+                </li>
+                <li>
+                  <a class="anchors" href="#order-now" title="Order Now"
+                    >Order Now</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="header__burger">
+              <div class="burger-menu">
+                <div class="burger-click-region">
+                  <span class="burger-menu-piece"></span>
+                  <span class="burger-menu-piece"></span>
+                  <span class="burger-menu-piece"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- HEADER END -->
+
+      <div class="wrapper wow fadeInUp" data-wow-delay="0.3s">
+        <div class="one-product-section">
+          <div class="one-product-section__row">
+            <div class="one-product-section__text">
+              <h2>Powerful New Formula To Support Healthy Weight Loss</h2>
+              <p>
+                Nicoya PuraTea is an all natural formula that can assist in
+                eliminating excess body fat while maintaining long-term results.
+              </p>
+              <a href="#order-now" class="btn-lame anchors new-btn-style"
+                >ORDER NOW >></a
+              >
+            </div>
+            <div class="one-product-section__img">
+              <img
+                src="images/main-pages-assets/3bottles.png"
+                srcset="
+                  images/main-pages-assets/3bottles@2x.png 2x,
+                  images/main-pages-assets/3bottles@3x.png 3x
+                "
+                class=""
+              />
+              <p>
+                <img src="images/main-pages-assets/icon-info-one.svg" alt="" />
+                Manufactured in the USA from the finest of foreign and domestic
+                ingredients
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-blue">
+        <div class="wrapper">
+          <div class="product-blue__row">
+            <div class="product-blue__img">
+              <img
+                src="images/main-pages-assets/1bottle.png"
+                srcset="
+                  images/main-pages-assets/1bottle@2x.png 2x,
+                  images/main-pages-assets/1bottle@3x.png 3x
+                "
+                class=""
+              />
+            </div>
+            <div class="product-blue__text">
+              <p>
+                Nicoya PuraTea is made up of a proprietary blend of 8 natural
+                ingredients proven to target the possible cause of unexplained
+                weight gain from blue light exposure and lack of N-REM sleep.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+  </body>
+  <script src="js/engineer.js"></script>
+  <script src="js/lame.js"></script>
+  <script src="js/trynowYoutube.js"></script>
+  <script src="js/wow.js"></script>
+  <script>
+    $(function ($) {
+      wow = new WOW({
+        boxClass: "wow", // default
+        animateClass: "animated", // default
+        offset: 0, // default
+        mobile: true, // default
+        live: true, // default
+      });
+      wow.init();
+    });
+  </script>
+
+  <!-- title -->
+  <script>
+    var pierwotnyTytul = document.title;
+    var nowyTytul = "⚠️ You've got message!";
+
+    function migotajCoSekunde() {
+      setInterval(function () {
+        if (document.hidden) {
+          document.title =
+            document.title === nowyTytul ? pierwotnyTytul : nowyTytul;
+        }
+      }, 1000);
+    }
+
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) {
+        document.title = nowyTytul;
+      } else {
+        document.title = pierwotnyTytul;
+      }
+    });
+    migotajCoSekunde();
+  </script>
+  <!-- end title -->
+</html>
